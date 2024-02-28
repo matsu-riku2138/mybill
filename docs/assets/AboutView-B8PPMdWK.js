@@ -1,1 +1,0 @@
-import{_ as t,c as e,o,a as s}from"./index-BmEEMdy9.js";const c={},a={class:"mx-auto pt-5",style:{"max-width":"600px","min-height":"400px"}},_=s("h2",{class:"px-2 pb-3"},"このサイトについて",-1),n=s("p",{class:"px-2"}," 商品名と値段を入力すると現在の会計の合計を表示するサイトです。 ",-1),i=[_,n];function r(p,d){return o(),e("div",a,i)}const x=t(c,[["render",r]]);export{x as default};
