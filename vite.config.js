@@ -5,6 +5,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build:{
+    transpileDependencies: true,
+    publicPath: process.env.NODE_ENV === 'production' ? '/product-frontend/' : '/',
+    outDir: './docs',
+  },
   plugins: [
     vue(),
   ],
@@ -13,7 +18,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === 'production' ? '/product-frontend/' : '/',
-  outputDir: 'docs'
 })
