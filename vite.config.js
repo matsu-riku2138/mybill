@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build:{
     transpileDependencies: true,
-    publicPath: '/mybill',
+    publicPath: '/',
     outDir: './docs',
   },
   plugins: [
