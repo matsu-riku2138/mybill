@@ -6,22 +6,22 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-          <a class="navbar-brand" href="/mybill"><h2>会計.com</h2></a>
+          <a class="navbar-brand" href="/"><h2>会計.com</h2></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                      <RouterLink class="nav-link active" to="/mybill">ホーム</RouterLink>
+                      <RouterLink class="nav-link active" to="/">ホーム</RouterLink>
                       <!-- <a class="nav-link active" href="/about">サイトについて</a> -->
                   </li>
                   <li class="nav-item">
-                      <RouterLink class="nav-link active" to="/mybill/about">サイトについて</RouterLink>
+                      <RouterLink class="nav-link active" to="/about">サイトについて</RouterLink>
                       <!-- <a class="nav-link active" href="/about">サイトについて</a> -->
                   </li>
                   <li class="nav-item">
-                      <RouterLink class="nav-link active" to="/mybill/contact">お問い合わせ</RouterLink>
+                      <RouterLink class="nav-link active" to="/contact">お問い合わせ</RouterLink>
                       <!-- <a class="nav-link active" href="/contact">問い合わせ</a> -->
                   </li>
               </ul>
